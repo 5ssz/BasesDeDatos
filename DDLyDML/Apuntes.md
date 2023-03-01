@@ -18,7 +18,8 @@ Dónde:
 
 Ejemplo:
 La siguiente sentencia crearia una tabla llamada `clientes` con tres columnas: id (entero), `nombre` (cadena de texto) y `dirección` (cadena de texto):
-```CREATE TABLE 
+```sql
+CREATE TABLE 
 id INT
 nombre VARCHAR(50)
 dirección VARCHAR(100)
