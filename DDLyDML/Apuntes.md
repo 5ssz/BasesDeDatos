@@ -12,12 +12,12 @@ CREATE TABLE nombre_de_la_tabla
 ```
 
 Dónde:
-`nombre_de_la_tabla` es el nombre que se le dará a la tabla que se quiere crear.
-`definición_de_columnas` es el nombre de la columna, tipos de datos, etc.
-`definición_de_restricciones` son las restricciones o condiciones que se aplicaran a la tabla (clave primaria, foranea, etc).
+**nombre_de_la_tabla** es el nombre que se le dará a la tabla que se quiere crear.
+**definición_de_columnas** es el nombre de la columna, tipos de datos, etc.
+**definición_de_restricciones** son las restricciones o condiciones que se aplicaran a la tabla (clave primaria, foranea, etc).
 
 Ejemplo:
-La siguiente sentencia crearia una tabla llamada `clientes` con tres columnas: id (entero), `nombre` (cadena de texto) y `dirección` (cadena de texto):
+La siguiente sentencia crearia una tabla llamada **clientes** con tres columnas: **id** (entero), **nombre** (cadena de texto) y **dirección** (cadena de texto):
 ```sql
 CREATE TABLE 
 id INT
