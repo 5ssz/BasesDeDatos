@@ -82,5 +82,5 @@ Después de su resolucion devuelven para cada fila TRUE o FALSE, en funcion de q
 | `<=`           | Menor o igual |
 | `=`            | Igual         |
 | `IS [NOT] NULL`| Para comprobar si el valor de una columna es o no es NULO, es decir, si tiene o no tiene algun valor |
-| `BETWEEN`      | Para un interval de valores |
+| `BETWEEN`      | Para un intervalo de valores |
 | `LIKE`         | Para comprarar un modelo    |
