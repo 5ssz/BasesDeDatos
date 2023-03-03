@@ -97,7 +97,7 @@ Con la combinación de estos carateres podriamos obtener multiples patrones de b
 
 ### Ejemplo operador LIKE
 
-| Ejemplo    | Acción        |
+| Ejemplo    | Significado        |
 | --------       |----------     |
 | `Nombre LIKE 'A%'`            | El nombre comienza por A         |
 | `Nombre LIKE '% A'`           | El nombre acaba por A |
