@@ -110,3 +110,29 @@ Con la combinación de estos carateres podriamos obtener multiples patrones de b
 | --------       |----------     |
 | `Cod Cliente BETWEEN 30 AND 100`             | Clientes entre el 30 y el 100 |
 | `fechanacimiento BETWEEN '1970-01-01' AND '1979-12-31'`            | Clientes nacidos entre 1970 y 1979 |
+
+## Operadores Lógicos
+### AND 
+"A and B" Devuelve verdadero si A y B valen TRUE, y FALSE en cualquier otro caso
+| A | B | A and B |
+|-- |-- |---------- |
+|true|true|true|
+|true|false|false|
+|false|true|false|
+|false|false|false|
+
+### OR
+"A or B" devuelve cierto si A o B valen TRUE, únicamente es FALSE cuando A y B vale FALSE
+| A | B | A or B |
+|-- |-- |---------- |
+|true|true|true|
+|true|false|true|
+|false|true|true|
+|false|false|false|
+
+### NOT
+"not A" devuelve FALSE si A vale TRUE, y TRUE si A vale FALSE
+| A | not A |
+|-- |--     |
+|true|false|
+|false|true|
