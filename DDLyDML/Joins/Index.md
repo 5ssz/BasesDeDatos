@@ -10,26 +10,26 @@ SELECT * FROM a INNER JOIN b ON a.key = b.key
 ```pgsql
 SELECT * FROM a LEFT JOIN b ON a.key = b.key
 ```
-![LEFT JOIN](DDLyDML/img/left_join.png "left join")
+![LEFT JOIN](/img/left_join.png "left join")
 
 
 ```pgsql
 SELECT * FROM a LEFT JOIN b ON a.key = b.key WHERE b.key IS NULL
 ```
-![LEFT JOIN](DDLyDML/img/left_join_where_is_null.png "left join where is null")
+![LEFT JOIN](/img/left_join_where_is_null.png "left join where is null")
 
 
 ## RIGHT JOIN
 ```pgsql
 SELECT * FROM a RIGHT JOIN b ON a.key = b.key
 ```
-![RIGHT JOIN](DDLyDML/img/right_join.png "right join")
+![RIGHT JOIN](/img/right_join.png "right join")
 
 
 ```pgsql
 SELECT * FROM a RIGHT JOIN b ON a.key = b.key WHERE a.key IS NULL
 ```
-![RIGHT JOIN](DDLyDML/img/right_join_where_is_null.png "right join where is null")
+![RIGHT JOIN](/img/right_join_where_is_null.png "right join where is null")
 
 ## FULL JOIN
 ```pgsql
@@ -40,4 +40,4 @@ SELECT * FROM a FULL JOIN b ON a.key = b.key
 ```pgsql
 SELECT * FROM a FULL JOIN b ON a.key = b.key WHERE a.key IS NULL OR b.key IS NULL
 ```
-![FULL JOIN](DDLyDML/img/full_join_where_is_null.png "full join where is null")
+![FULL JOIN](/img/full_join_where_is_null.png "full join where is null")
