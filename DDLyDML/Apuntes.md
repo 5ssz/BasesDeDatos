@@ -101,6 +101,6 @@ Con la combinación de estos carateres podriamos obtener multiples patrones de b
 | --------       |----------     |
 | `Nombre LIKE 'A%'`            | El nombre comienza por A         |
 | `Nombre LIKE '% A'`           | El nombre acaba por A |
-| `– Nombre LIKE '% A%'`            | El nombre contiene la letra A         |
-| `– Nombre LIKE 'A_'`           | El nombre comienza por A y después contiene un solo carácter (cualquier carácter) |
-| `– Nombre LIKE 'A_E%'`            | El nombre comienza por una A, después cualquier  carácter, posteriormente una E y al final cualquier cadena de caracteres         |
+| `Nombre LIKE '% A%'`            | El nombre contiene la letra A         |
+| `Nombre LIKE 'A_'`           | El nombre comienza por A y después contiene un solo carácter (cualquier carácter) |
+| `Nombre LIKE 'A_E%'`            | El nombre comienza por una A, después cualquier  carácter, posteriormente una E y al final cualquier cadena de caracteres         |
