@@ -3,7 +3,7 @@
 ```pgsql
 SELECT * FROM a INNER JOIN b ON a.key = b.key
 ```
-![INNER JOIN](DDLyDML/img/inner_join.png "inner join")
+![INNER JOIN](img/inner_join.png "inner join")
 
 
 ## LEFT JOIN
