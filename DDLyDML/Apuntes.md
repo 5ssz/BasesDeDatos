@@ -106,3 +106,7 @@ Con la combinación de estos carateres podriamos obtener multiples patrones de b
 | `Nombre LIKE 'A_E%'`             | El nombre comienza por una A, después cualquier  carácter, posteriormente una E y al final cualquier cadena de caracteres         |
 
 ### Ejemplo BETWEEN
+| Ejemplo     | Significado        |
+| --------       |----------     |
+| `Cod Cliente BETWEEN 30 AND 100`             | Clientes entre el 30 y el 100 |
+| `fechanacimiento BETWEEN '1970-01-01' AND '1979-12-31'`            | Clientes nacidos entre 1970 y 1979 |
