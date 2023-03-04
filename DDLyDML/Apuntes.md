@@ -60,13 +60,13 @@ Estas funciones aparecen en el SELECT de la consulta.
 Por ejemplo, si tienes una tabla con varios valores numéricos, puedes usar una función de agregación para sumar todos los valores y obtener un único resultado. 
 
 ### Funciones de agregación básicas
-| Funciones   |     Acción      |
-| ----------- |-------------    |
-| **COUNT**   | Devuelve el número total de filas seleccionadas por la consulta       |
-| **MAX**     | Devuelve el valor máximo del campo que especifiquemos |
-| **MIN**     | Devuelve el valor mínimo del campo que especifiquemos |
+| Funciones   |     Acción                                                                                |
+| ----------- |------------------------------------------------------------------------------------------ |
+| **COUNT**   | Devuelve el número total de filas seleccionadas por la consulta                           |
+| **MAX**     | Devuelve el valor máximo del campo que especifiquemos                                     |
+| **MIN**     | Devuelve el valor mínimo del campo que especifiquemos                                     |
 | **AVG**     | Devuelve la media del campo que especifiquemos (solo se puede usar en columnas numéricas) |
-| **SUM**     | Suma los valores del campo que especifiquemos (solo se puede usar en columnas numéricas) |
+| **SUM**     | Suma los valores del campo que especifiquemos (solo se puede usar en columnas numéricas)  |
 
 ## Condiciones
 Las condiciones se utilizan en las columnas SQL para filtrar los resultados basándose en ciertas condiciones lógicas. Estas se especifican utilizando la cláusula **WHERE** en la consulta **SELECT**
