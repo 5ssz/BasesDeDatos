@@ -1,5 +1,5 @@
 # Bases de datos
-- [Apuntes DDL y DML](https://5ssz.github.io/PostgreSQL/DDLyDML/Apuntes)
-- [Chuleta JOINS](https://5ssz.github.io/PostgreSQL/DDLyDML/Joins/Teoria)
+- [x] [Apuntes DDL y DML](https://5ssz.github.io/PostgreSQL/DDLyDML/Apuntes)
+- [x] [Chuleta JOINS](https://5ssz.github.io/PostgreSQL/DDLyDML/Joins/Teoria)
 
 * [WEB](https://5ssz.github.io)
